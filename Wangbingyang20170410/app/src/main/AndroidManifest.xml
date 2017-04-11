@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.dell.gaojianyi20170410a1502s">
+    package="com.example.dell.Wangbingyang201704101502s">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <application
-        android:name=".MyApp"
+        android:name="com.example.dell.Wangbingyang201704101502s.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.dell.Wangbingyang201704101502s.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

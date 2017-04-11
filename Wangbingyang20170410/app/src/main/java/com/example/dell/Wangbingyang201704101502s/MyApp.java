@@ -1,13 +1,9 @@
-package com.example.dell.gaojianyi20170410a1502s;
+package com.example.dell.Wangbingyang201704101502s;
 
 import android.app.Application;
 import org.xutils.x;
 
-/**
- * date:2017/4/10
- * author:高坚译（dell）
- * Time:15:32
- */
+
 
 public class MyApp extends Application {
     @Override

@@ -2,11 +2,7 @@ package MyBean;
 
 import java.util.List;
 
-/**
- * date:2017/4/10
- * author:高坚译（dell）
- * Time:9:14
- */
+
 
 public class Bean {
     /**

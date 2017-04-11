@@ -1,4 +1,4 @@
-package com.example.dell.gaojianyi20170410a1502s;
+package com.example.dell.Wangbingyang201704101502s;
 
 import android.content.Context;
 import android.widget.ListView;
@@ -15,11 +15,7 @@ import MyBean.Bean1;
 import MyBean.MyBase1;
 import Url.Url;
 
-/**
- * date:2017/4/10
- * author:高坚译（dell）
- * Time:15:35
- */
+
 
 public class MyHttp {
     private Context context;

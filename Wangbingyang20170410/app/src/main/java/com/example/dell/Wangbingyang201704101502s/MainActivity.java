@@ -1,4 +1,4 @@
-package com.example.dell.gaojianyi20170410a1502s;
+package com.example.dell.Wangbingyang201704101502s;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -29,7 +29,6 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     private List<TextView> t_list=new ArrayList<>();
     private String str[]={"头条","社会","国内","国际","娱乐"
             ,"军事","体育","时尚","财经","科技"};
-//    public static final String url="http://result.eolinker.com/SCNPrIW543a7a64f42043f3fe3a8df2b59f7b130608b922?uri=http://op.juhe.cn/onebox/news/query";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,21 +101,11 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         //最上面导航
         t_list = new ArrayList<TextView>();
         for(int i=0;i<str.length;i++){
-            //每个textview的宽度
-//            Toast.makeText(MainActivity.this,str[i],Toast.LENGTH_SHORT).show();
+
             LinearLayout.LayoutParams params=new LinearLayout.LayoutParams(width/3, ViewPager.LayoutParams.WRAP_CONTENT);
-//            TextView textView=new TextView(this);
-            //距离上下左右
-//            textView.setPadding(20, 20, 20, 20);
-            //赋值
+
             list.get(i).setText(str[i]);
-            //添加集合
-//            t_list.add(textView);
-            //绑定
-//            textView.setTag(i);
-            //将textview放到布局里
-//            ll.addView(textView, i,params);
-            //textview 监听  点哪个滑到那页
+
             list.get(i).setOnClickListener(this);
         }
     }
@@ -139,22 +128,17 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         list.add(t6);list.add(t7);list.add(t8);list.add(t9);list.add(t10);
 
     }
-    //viewpager监听里的
     private void getpage(int arg0) {
-        // TODO Auto-generated method stub
-        //当前显示textview页
+
         TextView textView1 = list.get(arg0);
         for (int i = 0; i < list.size(); i++) {
-            //将当前显示的textview放到中间
             TextView text=list.get(arg0);
-//            int k = text.getMeasuredWidth();
+
             int l = text.getLeft();
-//            int s = k / 2 + l - width / 2;
-//            sv.scrollTo(l, 0);
+
             sv.smoothScrollTo(l, 0);
-//            得到所有textview
+
             TextView t = list.get(i);
-            //给当前显示页面的textview页变色
             if (!t.equals(textView1)) {
 
                 t.setTextColor(Color.BLACK);

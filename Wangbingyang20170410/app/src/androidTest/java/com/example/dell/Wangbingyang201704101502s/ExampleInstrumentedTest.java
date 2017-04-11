@@ -1,4 +1,4 @@
-package com.example.dell.gaojianyi20170410a1502s;
+package com.example.dell.Wangbingyang201704101502s;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

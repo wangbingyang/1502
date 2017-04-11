@@ -8,14 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
-import com.example.dell.gaojianyi20170410a1502s.MyHttp;
-import com.example.dell.gaojianyi20170410a1502s.R;
+import com.example.dell.Wangbingyang201704101502s.MyHttp;
+import com.example.dell.Wangbingyang201704101502s.R;
 
-/**
- * date:2017/4/10
- * author:高坚译（dell）
- * Time:8:58
- */
+
 
 public class f1 extends Fragment {
     private String s;
@@ -23,16 +19,7 @@ public class f1 extends Fragment {
     public f1(String s) {
         this.s = s;
     }
-//private Handler handler=new Handler(){
-//    @Override
-//    public void handleMessage(Message msg) {
-//        super.handleMessage(msg);
-//        String ss= (String) msg.obj;
-//        Bean bean = new Gson().fromJson(ss, Bean.class);
-//        List<Bean.ResultBean> result = bean.getResult();
-//        lv.setAdapter(new MyBase(getActivity(),result));
-//    }
-//};
+
 
     @Nullable
     @Override

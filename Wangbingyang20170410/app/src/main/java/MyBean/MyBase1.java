@@ -7,18 +7,14 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.dell.gaojianyi20170410a1502s.R;
+import com.example.dell.Wangbingyang201704101502s.R;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 
 import java.util.List;
 
 
-/**
- * date:2017/4/10
- * author:高坚译（dell）
- * Time:9:16
- */
+
 
 public class MyBase1 extends BaseAdapter {
     private Context context;
